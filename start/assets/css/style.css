@@ -1,3 +1,110 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+#site-header {
+    background-color: hsl(0, 0%, 80%);
+    background-image: url(https://cdn.discordapp.com/attachments/1496154116563538072/1501560978532339772/header-bg.jpg?ex=69fc8522&is=69fb33a2&hm=122372a6f5913d54e9f179d92c7141df57b72b2f818effc446a6d3b3aff44582&);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+#site-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tagline {
+    color: rgb(255, 34, 0);
+    font-style: italic;
+}
+
+main h2, h3 {
+    font-size: 1.8rem;
+    color:  hsla(0, 96%, 19%, 0.784);
+    text-align: start;
+}
+
+nav a {
+    color: rgb(154, 175, 14);
+    font-weight: bold;
+    line-height: 3;
+
+}
+
+nav a:hover {
+    color: white;
+    background-color:rgb(60, 255, 0);
+}
+
+#chi-sono {
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+#chi-sono p:first-of-type {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: darkslategray;
+}
+
+.skill-list li:nth-child(odd) {
+    background-color: hsla(0, 38%, 50%, 0.057);
+}
+
+.skill-list li:nth-child(even) {
+    background-color: hsla(0, 32%, 86%, 0.372);
+}
+
+.skill-list li:first-child {
+    font-weight: bold;
+}
+
+.project:nth-last-of-type(odd) {
+background-color: hsla(0, 38%, 50%, 0.057);
+}
+
+.project:nth-last-of-type(even) {
+  background-color: hsla(0, 32%, 86%, 0.372);  
+}
+
+form label {
+    font-weight: bold;
+color: hsla(0, 96%, 19%, 0.784);
+}
+form input, textarea {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 0.9rem;
+width: 60%;
+background-color: beige;
+}
+
+
+
+input:focus, textarea:focus {
+background-color: whitesmoke;
+color: darkred;
+}
+
+button {
+    color: white;
+    background-color: hsl(0, 98%, 32%);
+    font-weight: bold;
+    width: 30%;
+}
+
+button:hover {
+    color: hsl(0, 98%, 32%);
+    background-color: white;
+}
+
 table {
     border-collapse: collapse;
 }
@@ -11,12 +118,19 @@ figcaption {
     color: gray;
 }
 
+#site-footer {
+    background-color: hsla(0, 96%, 19%, 0.784);
+    color: #ffffff;
+    text-align: center;
+    font-size: o.9rem;
+}
+
 #contacts {
-    margin-top: 10px;
+    padding-top: 3%;
+    text-align: center;
 }
 
 #contacts a {
-margin: 8px;
+margin: 10px;
 }
 
-    

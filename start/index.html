@@ -9,9 +9,9 @@
 </head>
 
 <body id="inizio">
-    <header>
+    <header id="site-header">
         <h1>Claudio Giasi</h1>
-        <p>
+        <p class="tagline">
             <strong>Studente Full Stack</strong> - corso Epicode 2026
         </p>
         <nav>
@@ -26,8 +26,8 @@
     </header>
 
     <main>
-        <section id="chisono">
-            <h2 id="chi-sono">Chi sono</h2>
+        <section id="chi-sono">
+            <h2>Chi sono</h2>
             <figure>
                 <img src="assets/img/8b42cc6f-9ebd-476f-a423-74c649b3b6a7.JPG" alt="Foto Profilo Claudio Giasi"
                     width="200px">
@@ -46,18 +46,12 @@
                 tornato
                 a studiare andando, così, a cambiare settore. Cerco un primo ruolo come sviluppatore Frontend.
             </p>
-
-            <aside>
-                <p>Sono nerd fino al midollo, cresciuto pad alla mano e fumetti, amante della cultura orientale e nel
-                    tempo libero sono un'atleta di Calisthenics (o così mi piace definirmi)</p>
-            </aside>
-
         </section>
 
-        <section>
-            <h2 id="competenze">Competenze</h2>
+        <section id="competenze">
+            <h2>Competenze</h2>
             <p>Le competenze acquisite durante la prima settimana di corso sono:</p>
-            <ul>
+            <ul class="skill-list">
                 <li>HTML - struttura delle pagine</li>
                 <li>CSS - stile e impaginazione</li>
                 <li>Git e GitHub - versionamento del codice</li>
@@ -65,15 +59,15 @@
             </ul>
         </section>
 
-        <section>
-            <h2 id="esperienze">Esperienze</h2>
+        <section id="esperienze">
+            <h2>Esperienze</h2>
             <p>La mia esperienza fino ad oggi, sia accademica che lavorativa:</p>
             <table>
-                
+
                 <caption>
                     <b>Esperienze Formative e Lavorative</b>
                 </caption>
-                
+
                 <thead>
                     <tr>
                         <th scope="col">Anno</th>
@@ -134,22 +128,33 @@
             </table>
         </section>
 
-        <section>
-            <h2 id="progetti">Progetti</h2>
+        <section id="progetti">
+            <h2>Progetti</h2>
+
+
             <p>Ecco i lavori svolti durante la settimana di Pre-corso.</p>
-            <h3>Prima Challenge: Presentazione Giasi Claudio</h3>
-            <p>Costruzione di una piccola pagina web di presentazione.</p>
-            <a href="https://theredkardinal.github.io/First-HTML-Challenge/" target="_blank">Vedi su GitHub</a>
-            <h3>Terza Challenge: Parco Nazionale di Skaftafell</h3>
-            <p>Costruzione di una piccola pagina web con collegamneti funzionanti ad altre pagine (dello stessa
-                macrocategoria). Ogni pagina avente la foto di un bel paesaggio, titolo e sottotitolo, autore dello
-                scatto
-                con link funzionane alla pagina dello stesso.</p>
-            <a href="https://theredkardinal.github.io/Challlenge-3/" target="_blank">Vedi su GitHub</a>
-            <h3>Challenge Finale: YouTube HomePage Clone</h3>
-            <p>Costruzione del clone di una pagina HomePage di Youtube.</p>
-            <a href="https://theredkardinal.github.io/Challenge5---YouTube-Clone-Page/" target="_blank">Vedi su
-                GitHub</a>
+
+            <article class="project">
+                <h3>Prima Challenge: Presentazione Giasi Claudio</h3>
+                <p>Costruzione di una piccola pagina web di presentazione.</p>
+                <a href="https://theredkardinal.github.io/First-HTML-Challenge/" target="_blank">Vedi su GitHub</a>
+            </article>
+
+            <article class="project">
+                <h3>Terza Challenge: Parco Nazionale di Skaftafell</h3>
+                <p>Costruzione di una piccola pagina web con collegamneti funzionanti ad altre pagine (dello stessa
+                    macrocategoria). Ogni pagina avente la foto di un bel paesaggio, titolo e sottotitolo, autore dello
+                    scatto
+                    con link funzionane alla pagina dello stesso.</p>
+                <a href="https://theredkardinal.github.io/Challlenge-3/" target="_blank">Vedi su GitHub</a>
+            </article>
+
+            <article class="project">
+                <h3>Challenge Finale: YouTube HomePage Clone</h3>
+                <p>Costruzione del clone di una pagina HomePage di Youtube.</p>
+                <a href="https://theredkardinal.github.io/Challenge5---YouTube-Clone-Page/" target="_blank">Vedi su
+                    GitHub</a>
+            </article>
 
         </section>
 
@@ -157,11 +162,11 @@
 
         <a href="#inizio">Torna su</a>
 
-        <section>
-            <h2 id="contatti">Contattami</h2>
+        <section id="contatti">
+            <h2>Contattami</h2>
             <p>Compila il form per scrivermi. Di solito evado le richieste in 24h.</p>
             <h5>*=Campo Obbligatorio</h5>
-            <form action="#" method="post">
+            <form>
                 <label for="name">Nome*</label> <br />
                 <input type="text" id="name" placeholder="Il tuo nome" required> <br /><br />
                 <label for="surname">Cognome*</label> <br />
@@ -189,7 +194,8 @@
                 <textarea name="message" id="message" rows="5" placeholder="Scrivi qui il tuo messaggio..."></textarea>
 
                 <br /><br />
-                <input type="checkbox" id="contact-permission" name="contact-permission" required>
+
+                <input style="width: auto;" type="checkbox" id="contact-permission" name="contact-permission" required>
                 <label for="contact-permission">Accetto di essere ricontattatto</label>
 
                 <br /><br />
@@ -201,15 +207,15 @@
         </section>
 
     </main>
-    <hr />
-    <footer>
+
+    <footer id="site-footer">
+       
         <div id="contacts">
             <a href="https://github.com/TheRedKardinal" target="_blank">
-                <img src="assets/img/icons8-github.svg" alt="github-logo" width="20px">
-            </a>
-
+                <img src="assets/img/icons8-github-50.png"github-logo" width="20px">
+            
             <a href="https://www.linkedin.com/in/claudio-giasi-8836b5243/" target="_blank">
-                <img src="assets/img/icons8-linkedin.svg" alt="linkedin-logo" width="20px">
+                <img src="assets/img/icons8-linkedin-50.png" alt="linkedin-logo" width="20px">
             </a>
         </div>
 
