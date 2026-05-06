@@ -26,9 +26,10 @@ body {
     font-style: italic;
 }
 
-main h2, h3 {
+main h2,
+h3 {
     font-size: 1.8rem;
-    color:  hsla(0, 96%, 19%, 0.784);
+    color: hsla(0, 96%, 19%, 0.784);
     text-align: start;
 }
 
@@ -41,7 +42,7 @@ nav a {
 
 nav a:hover {
     color: white;
-    background-color:rgb(60, 255, 0);
+    background-color: rgb(60, 255, 0);
 }
 
 #chi-sono {
@@ -68,29 +69,32 @@ nav a:hover {
 }
 
 .project:nth-last-of-type(odd) {
-background-color: hsla(0, 38%, 50%, 0.057);
+    background-color: hsla(0, 38%, 50%, 0.057);
 }
 
 .project:nth-last-of-type(even) {
-  background-color: hsla(0, 32%, 86%, 0.372);  
+    background-color: hsla(0, 32%, 86%, 0.372);
 }
 
 form label {
     font-weight: bold;
-color: hsla(0, 96%, 19%, 0.784);
-}
-form input, textarea {
-font-family: Arial, Helvetica, sans-serif;
-font-size: 0.9rem;
-width: 60%;
-background-color: beige;
+    color: hsla(0, 96%, 19%, 0.784);
 }
 
+form input,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    width: 60%;
+    background-color: beige;
+}
 
 
-input:focus, textarea:focus {
-background-color: whitesmoke;
-color: darkred;
+
+input:focus,
+textarea:focus {
+    background-color: whitesmoke;
+    color: darkred;
 }
 
 button {
@@ -98,6 +102,7 @@ button {
     background-color: hsl(0, 98%, 32%);
     font-weight: bold;
     width: 30%;
+    margin-bottom: 15px;
 }
 
 button:hover {
@@ -105,11 +110,17 @@ button:hover {
     background-color: white;
 }
 
+#checkbox input {
+    width: auto;
+}
+
 table {
     border-collapse: collapse;
 }
 
-caption, th, td {
+caption,
+th,
+td {
     border: 2px solid black;
 }
 
@@ -122,7 +133,7 @@ figcaption {
     background-color: hsla(0, 96%, 19%, 0.784);
     color: #ffffff;
     text-align: center;
-    font-size: o.9rem;
+    font-size: 0.9rem;
 }
 
 #contacts {
@@ -131,6 +142,5 @@ figcaption {
 }
 
 #contacts a {
-margin: 10px;
+    margin: 10px;
 }
-
