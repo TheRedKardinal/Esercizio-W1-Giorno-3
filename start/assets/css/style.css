@@ -82,7 +82,8 @@ form label {
 }
 
 form input,
-textarea {
+textarea,
+select {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.9rem;
     width: 60%;
@@ -110,7 +111,7 @@ button:hover {
     background-color: white;
 }
 
-#checkbox input {
+#contact-permission{
     width: auto;
 }
 
