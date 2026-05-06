@@ -1,0 +1,22 @@
+table {
+    border-collapse: collapse;
+}
+
+caption, th, td {
+    border: 2px solid black;
+}
+
+figcaption {
+    font-style: italic;
+    color: gray;
+}
+
+#contacts {
+    margin-top: 10px;
+}
+
+#contacts a {
+margin: 8px;
+}
+
+    
