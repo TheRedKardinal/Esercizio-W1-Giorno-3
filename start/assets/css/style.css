@@ -93,7 +93,8 @@ select {
 
 
 input:focus,
-textarea:focus {
+textarea:focus
+select:focus {
     background-color: whitesmoke;
     color: darkred;
 }
